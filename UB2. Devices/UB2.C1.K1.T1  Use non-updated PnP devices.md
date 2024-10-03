@@ -6,9 +6,6 @@ let connected = DeviceEvents
  DeviceDescription = tostring(parse_json(AdditionalFields).DeviceDescription),
  ClassID = tostring(parse_json(AdditionalFields).ClassId),
  DevID0 = tostring(parse_json(AdditionalFields).DeviceId);
-// Case1: Identify what is connected to a device | where DeviceName has ""
-// Case2: Filter the type of PnP devices | where ClassName has "" 
-// Case3 : Excluding specific PnP devices | where ClassName !in ("Monitor","Mouse");
 DeviceEvents
 | where ActionType has "PnpDeviceAllowed"
 | extend DeviceInstanceId = tostring(parse_json(AdditionalFields).DeviceInstanceId),
