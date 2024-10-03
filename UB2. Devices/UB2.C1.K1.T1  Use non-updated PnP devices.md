@@ -1,5 +1,6 @@
+**SCKIPT - UB2.C1.K1.T1  Use non-updated PnP devices**
 ```
-//SCKIPT - UB2.C1.K1.T1  Use non-updated PnP devices
+//SCKIPT - UB2.C1.K1.T1 Use non-updated PnP devices
 let connected = DeviceEvents
 | where ActionType has "PnpDeviceConnected"
 | extend ClassName = tostring(parse_json(AdditionalFields).ClassName),
