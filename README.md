@@ -8,3 +8,5 @@ SCKIPT is an initiative focus on detect different User Behaviours which can put 
 **T** - Threat
 
 Every Source is marked as **UB** (Use Behavior) and after it are classified by the different sub-objects.
+
+SCKIPT.COM
