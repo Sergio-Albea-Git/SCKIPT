@@ -1,11 +1,11 @@
-**UB4.C1.K1.T1 Data leakage due to low-risk Cipher Suite algorithms**
+**UB4.C1.K1.T1 Low-risk Cipher Suite algorithms**
 
 **Description**: This query is using the DeviceNetworkEvents table to filter  by connections where there are encryption algorithms used.
 Then, I take a list of the encryption algorithms database from the well-known site iana.org which is an entity that monitors the global allocation of IP addresses, autonomous systems, DNS domain name root servers and other Internet Protocol resources.
 Finally, It list cases where there are multiple connections established using non-recommended or non-valid datagram transport layer security (DTLS), which could mean that our users are not protected against eavesdropping, tampering or message forgery. 
 
 ```
-//UB4.C1.K1.T1 Data leakage due to low-risk Cipher Suite algorithms
+//UB4.C1.K1.T1 Low-risk Cipher Suite algorithms
 let CVE = externaldata(Value:string,Description:string,DTLSOK:string,Recommended:string,Reference:string)
 [@"https://www.iana.org/assignments/tls-parameters/tls-parameters-4.csv"] with (format="csv");
 DeviceNetworkEvents
