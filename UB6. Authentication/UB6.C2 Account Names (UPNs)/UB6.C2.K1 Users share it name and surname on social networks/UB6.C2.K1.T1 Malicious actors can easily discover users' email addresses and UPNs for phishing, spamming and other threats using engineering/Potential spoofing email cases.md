@@ -1,4 +1,4 @@
-**Potential Detect spoofing email cases**
+**Potential spoofing email cases**
 
 This query, check emails received where the DisplayName matches with EntraID DisplayName Accounts, and then I apply multiple filters and conditions to obtain the most accurate true positive results.
 ```
