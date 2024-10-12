@@ -26,3 +26,6 @@ DeviceNetworkEvents
  | summarize Totalconnections=count() by RemoteIP, RemoteIPCountry, TenantId,DeviceName, LocalIP,ActionType, RemotePort, Protocol, cipher, Value,Description, DTLSOK, Recommended, Reference, RFCLink
 | order by Totalconnections
 ```
+
+**Author** : Sergio Albea (sergioalbea.com)
+
