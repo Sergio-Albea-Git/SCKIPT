@@ -11,3 +11,5 @@ CloudAppEvents
 // Detect removed Inbox Rules --> | where ActionType has "Remove-InboxRule"
 | project ActionType, Application, AccountDisplayName,IPAddress, CountryCode, ISP, ActivityType, ObjectName, ObjectType
 ```
+
+**Author** : Sergio Albea (sergioalbea.com)
