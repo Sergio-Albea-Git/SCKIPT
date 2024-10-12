@@ -1,12 +1,14 @@
-# SCKIPT
-SCKIPT is an initiative created by **Sergio Albea** (sergioalbea.com) focus on detect possible User Behaviours which can put the security of our systems in risk. Nowadays, we have multiple solutions, models and tools that allow us to increase our level of protection against different threats and attacks. However, there are multiple scenarios where the security will rely on how the users interact with their manage systems. SCKIPT can be defined as:
+# Microsoft KQL Queries related to URL Click
 
-**S** - Source 
-**C** - Case scenario
-**KI** - Known Interactions with the source
-**P** - Possible Protection
-**T** - Threat
+ [Microsoft KQL Queries related to URL Click ](https://github.com/Azure/Azure-Sentinel/tree/3b75b9928ae40f2684c4d17893652f66d43cadc3/Solutions/Microsoft%20Defender%20XDR/Hunting%20Queries/Email%20Queries/URL%20Click/).
 
-Every Source is marked as **UB** (Use Behavior) and after it are classified by the different sub-objects.
 
-SCKIPT.COM
+
+- End user malicious clicks
+- URL click count by click action
+- URL click on ZAP Email
+- URL clicks actions by URL
+- URLClick details based on malicious URL click alert
+- User clicked through events
+- User clicks on malicious inbound emails
+- User clicks on phishing URLs in emails
