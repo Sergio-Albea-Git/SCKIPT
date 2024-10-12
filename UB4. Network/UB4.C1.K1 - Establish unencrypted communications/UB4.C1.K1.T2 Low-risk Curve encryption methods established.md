@@ -27,3 +27,5 @@ DeviceNetworkEvents
 | summarize Totalconnections=count() by RemoteIP , RemoteIPCountry, OSDistribution, OSPlatform,OSVersion, ClientVersion, OSBuild, OSArchitecture,DeviceName, LocalIP,ActionType, RemotePort, Protocol, server_name,curve,DTLSOK, Recommended
 | order by Totalconnections
 ```
+
+**Author** : Sergio Albea (sergioalbea.com)
