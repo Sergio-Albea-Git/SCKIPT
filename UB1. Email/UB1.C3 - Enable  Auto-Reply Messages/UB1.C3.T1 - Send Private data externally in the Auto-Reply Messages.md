@@ -20,3 +20,4 @@ EmailEvents
 // if you want to have deeper information instead of a general view, you can use the next line and remove/comment the previous one
 //| distinct SenderDisplayName, SenderMailFromDomain, SenderIPv4, RecipientEmailAddress,DomainExtensions,Domain,Subject, EmailDirection, DeliveryAction, DeliveryLocation, ThreatTypes
 ```
+**Author** : Sergio Albea (sergioalbea.com)
