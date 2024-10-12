@@ -12,3 +12,4 @@ DeviceImageLoadEvents
 | where isnotempty( VulnerableExecutableSHA256)
 | summarize by DeviceId, DeviceName, ActionType, FileName, FolderPath, SHA256,VulnerableExecutableSHA256,Resources, Acknowledgements,URL, FileSize, InitiatingProcessAccountName,InitiatingProcessAccountDomain, InitiatingProcessAccountUpn, InitiatingProcessIntegrityLevel, InitiatingProcessFileName, InitiatingProcessVersionInfoCompanyName, Name, Author, VulnerableExecutableType, VulnerableExecutableEnvironmentVariable
 ```
+**Author** : Sergio Albea (sergioalbea.com)
