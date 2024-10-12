@@ -11,3 +11,5 @@ DeviceRegistryEvents
 // to reduce the number of false positive, I moved out localIPs, results with "." to reduce the number of local home routers and specific country
 | where RegistryValueData !contains "192." and RegistryValueData contains "." and RegistryValueData !endswith ".es"
 ```
+
+**Author** : Sergio Albea (sergioalbea.com)
