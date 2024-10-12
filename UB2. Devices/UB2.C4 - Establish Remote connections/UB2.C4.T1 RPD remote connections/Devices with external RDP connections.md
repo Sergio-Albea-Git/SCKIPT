@@ -10,3 +10,5 @@ DeviceEvents
 | where isnotempty (location)
 | project Timestamp, DeviceName, ActionType, LocalIP, LocalPort, location,ReportId, DeviceId
 ```
+
+**Author** : Sergio Albea (sergioalbea.com)
