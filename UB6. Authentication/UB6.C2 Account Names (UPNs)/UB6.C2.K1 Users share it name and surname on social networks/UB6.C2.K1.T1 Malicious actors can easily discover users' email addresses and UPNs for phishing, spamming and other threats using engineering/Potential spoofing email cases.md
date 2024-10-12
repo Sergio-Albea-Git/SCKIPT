@@ -19,4 +19,4 @@ EmailEvents
 | project SenderDisplayName, surname,AccountDisplayName, SenderMailFromAddress, RecipientEmailAddress,SenderFromAddress, Subject, SenderIPv4
 
 ```
-**Author** : Sergio Albea sergioalbea.com
+**Author** : Sergio Albea (sergioalbea.com)
