@@ -31,3 +31,6 @@ AADSignInEventsBeta
 | where (resta > 15 and resta2 > 15 and resta3> 20 and Lat1 != Lat2 and Lat1!= Lat2 and Lat2!= Lat3) or (resta < -20 and resta2 < -15 and resta3 < -15) or (restal > 20 and restal2 > 20 and restal3> 20 and Long1 != Long2 and Long1!= Long2 and Long2!= Long3) or (restal < -20 and restal2 < -20 and restal3 < -20) or (['Count of countries'] >4)
 | project AccountUpn,['List of countries']
 ```
+
+**Author** : Sergio Albea (sergioalbea.com)
+
