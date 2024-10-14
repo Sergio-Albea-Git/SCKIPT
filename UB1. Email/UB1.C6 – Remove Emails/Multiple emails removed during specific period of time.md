@@ -12,3 +12,4 @@ CloudAppEvents
 | sort by EmailsRemoved
 
 ```
+**Author**: Sergio Albea
