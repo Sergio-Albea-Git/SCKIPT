@@ -14,3 +14,4 @@ DeviceEvents
 | extend SensitiveFileSentTo = iff(SenderDomain == RecipientDomain, "Same Domain", "Different Domain")
 | project DeviceName, FileName, FolderPath, InitiatingProcessFileName,InitiatingProcessAccountName, InitiatingProcessAccountUpn,InitiatingProcessVersionInfoFileDescription, InitiatingProcessVersionInfoCompanyName, SenderDisplayName, SenderFromAddress, RecipientEmailAddress, SensitiveFileSentTo, FileSent = FileName1
 ```
+**Author** : Sergio Albea (sergioalbea.com)
