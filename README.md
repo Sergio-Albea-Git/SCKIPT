@@ -9,6 +9,6 @@ SCKIPT is oriented to list and provide possible measures to respond against the 
 **P** - Possible Protection
 **T** - Threat
 
-Every Source is marked as **UB** (Use Behavior) and after it are classified by the different sub-objects.
+Every Source is marked as **UB** (Use Behavior) and after it are classified by the different sub-objects. **Inside of this Repo, you will be able to find multiple KQL Queries related to the mentioned user behaviours cases.**
 
 SCKIPT.COM
