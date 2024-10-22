@@ -17,4 +17,5 @@ DeviceEvents
  DriverName = tostring(parse_json(AdditionalFields).DriverName)
 | join kind=inner (connected) on $left.DeviceInstanceId == $right.DevID0
 | where DeviceUpdated == "false"
-| distinct DeviceName, ClassName, DeviceDescription, ClassID, DriverProvider, DriverDate, DeviceUpdated, DriverVersion, DriverName```
+| distinct DeviceName, ClassName, DeviceDescription, ClassID, DriverProvider, DriverDate, DeviceUpdated, DriverVersion, DriverName
+```
