@@ -9,7 +9,7 @@ DeviceNetworkEvents
 | where RemoteUrl contains "/wp-content/plugins/"
 | extend PluginName = extract(@"/wp-content/plugins/([^/]+)/", 1, RemoteUrl)
 | extend Version = extract(@"\?ver=([\d\.]+)$", 1, RemoteUrl)
-| extend PluginSiteName = strcat( "https:// wordpress.org/ plugins/", PluginName)
+| extend PluginSiteName = strcat( "https://wordpress.org/plugins/", PluginName)
 | project PluginSiteName,PluginName,Version, DeviceName, Timestamp,RemoteIPCountry= tostring(geo_info_from_ip_address(RemoteIP).country), ActionType, RemoteUrl
 
 ```
